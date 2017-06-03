@@ -1,0 +1,12 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="button_dimens">45dp</dimen>
+    <dimen name="image_empty">77dp</dimen>
+    <dimen name="text_empty">300dp</dimen>
+    <dimen name="margin_seperation">16dp</dimen>
+    <dimen name="qty_txt_size">20sp</dimen>
+    <dimen name="img_dimen_details">120dp</dimen>
+    <dimen name="detail_text_size">20sp</dimen>
+    <dimen name="editBoxDimen">150dp</dimen>
+</resources>

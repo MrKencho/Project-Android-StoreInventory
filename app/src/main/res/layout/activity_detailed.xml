@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/img_dimen_details"
+        android:id="@+id/detail_image"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/detailName"
+        android:textSize="@dimen/detail_text_size"
+        android:text="@string/detail_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textStyle="bold"
+        android:textSize="@dimen/detail_text_size"
+        android:id="@+id/detailQty"
+        android:text="@string/detail_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textStyle="bold"
+        android:textSize="@dimen/detail_text_size"
+        android:id="@+id/detailPrice"
+        android:text="@string/detail_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_marginBottom="@dimen/margin_seperation"
+        android:layout_marginTop="@dimen/margin_seperation"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"/>
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_qty"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <EditText
+        android:inputType="numberSigned"
+        android:id="@+id/add_qty"
+        android:layout_width="@dimen/editBoxDimen"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="@dimen/qty_txt_size"/>
+        <Button
+            android:id="@+id/addQty"
+            android:text="add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:layout_marginBottom="@dimen/margin_seperation"
+        android:layout_marginTop="@dimen/margin_seperation"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"/>
+    <TextView
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/itemsSold"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:inputType="numberSigned"
+            android:id="@+id/sellItem"
+            android:layout_width="@dimen/editBoxDimen"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textSize="@dimen/qty_txt_size"/>
+        <Button
+            android:id="@+id/sell"
+            android:text="sold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <View
+        android:layout_marginBottom="@dimen/margin_seperation"
+        android:layout_marginTop="@dimen/margin_seperation"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#000"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:inputType="numberSigned"
+            android:id="@+id/orderQty"
+            android:hint="Order Qty"
+            android:layout_width="@dimen/editBoxDimen"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/qty_txt_size"/>
+        <Button
+            android:id="@+id/order"
+            android:text="@string/order_from_supplier"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

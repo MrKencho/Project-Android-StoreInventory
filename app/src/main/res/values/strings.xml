@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">StoreInventory</string>
+    <string name="empty_text">To add items, touch the button in the bottom right corner</string>
+    <string name="refresh">Refresh</string>
+    <string name="deleteIt">Delete It!</string>
+    <string name="save">Save</string>
+    <string name="insert_item_failed">Insert Failed</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="enter_all_values">Enter all the values</string>
+    <string name="insert_success">Insert Successful</string>
+    <string name="discard">Discard Changes</string>
+    <string name="keep_editing">Keep Editing</string>
+    <string name="hint_add_item_name">Enter Item Name</string>
+    <string name="hint_add_item_qty">Enter Quantity</string>
+    <string name="hint_add_item_price">Enter Price</string>
+    <string name="button_add_image">Add Image</string>
+    <string name="unsaved_changes_dialog_msg">Changes have not been saved!</string>
+    <string name="add_qty">Add Quantity</string>
+    <string name="sale_made">Sale made</string>
+    <string name="shipment_received">Shipment Received</string>
+    <string name="order_from_supplier">Order From Supplier</string>
+    <string name="detail_name">Name : </string>
+    <string name="detail_price">Price/Item : </string>
+    <string name="detail_quantity">Quantity : </string>
+    <string name="delete_dialog_msg">Are you sure you want to Delete it?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_failed">Deletion Failed</string>
+    <string name="delete_success">Deletion Successful</string>
+    <string name="itemsSold">Items Sold</string>
+</resources>
